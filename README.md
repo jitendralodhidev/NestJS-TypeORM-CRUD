@@ -41,6 +41,16 @@ $ npm run start
 # watch mode
 $ npm run start:dev
 
+# CRUD Endpoint 
+http://localhost:3000/user/
+
+# Sample payload 
+    {
+        "id": 1,
+        "name": "Abc",
+        "email": "abc@gmail.com"
+    },
+
 # production mode
 $ npm run start:prod
 ```
